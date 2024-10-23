@@ -1,0 +1,110 @@
+    1  sudo apt update
+    2  apt update
+    3  apt upgrade
+    4  clear
+    5  su admin
+    6  dir
+    7  clear
+    8  sudo apt update
+    9  apt update
+   10  clear
+   11  su
+   12  sudo apt install lvm2
+   13  cd dev
+   14  cd ..
+   15  cd dev
+   16  dir
+   17  clear
+   18  sudo fdisk /dev/sda1
+   19  sudo fdisk /dev/sdb
+   20  clear
+   21  fdisk
+   22  sudo fdisk 
+   23  fdisk --h
+   24  fdisk --help
+   25  clear
+   26  sudo fdisk/dev/sdx
+   27  dir
+   28  cd..
+   29  cd ..
+   30  dir
+   31  cd dev
+   32  tree
+   33  clear
+   34  sudo fdisk /dev/sdX
+   35  -n
+   36  fdisk -n
+   37  fdis --help
+   38  fdisk --help
+   39  clear
+   40  cd ..
+   41  dir
+   42  cd dev
+   43  dir
+   44  clear
+   45  sudo fdisk /dev
+   46  sudo fdisk /dev/sdb
+   47  sudo omount /dev/sdb
+   48  sudo umount /dev/sbd
+   49  tree  /dev/sbd
+   50  cd sdb
+   51  tree  /dev
+   52  clear
+   53  sudo apt instal mc
+   54  sudo apt instal midnight commander
+   55  sudo apt install  midnight commander
+   56  sudo apt install mc
+   57  10
+   58  sudo vgcreate  /dev/sda1 /dev/sda2
+   59  sudo vgcreate  /dev/sdc /dev/sdc2
+   60  sudo vgcreate  /dev/sdc /dev/sda1
+   61  sudo fdisk /dev/sda1
+   62  sudo fdisk /dev/sda
+   63  clear
+   64  sudo vgcreate  /dev/sdc /dev/sda
+   65  sudo fdisk /dev/sda
+   66  d
+   67  clear
+   68  sudo vgcreate  /dev/sdc /dev/sda
+   69  sudo vgcreate  /dev/sdc /dev/sda1
+   70  sudo vgcreate  /dev/sdc /dev/sda2
+   71  sudo vgcreate  /dev/sdc /dev/sda3
+   72  clear
+   73  cd /dev
+   74  dir
+   75  clear
+   76  sudo vgcreate  /dev/sdc /dev/sdb1
+   77  sudo vgcreate  /dev/sdc /dev/sdb5
+   78  sudo vgcreate  /dev/www /dev/sdb5
+   79  sudo vgcreate  /dev/www /dev/sdb
+   80  fdisk dev/sdb
+   81  fdisk dev/sdb5
+   82  fdisk dev/sdb1
+   83  clear
+   84  fdisk dev/sdb1
+   85  fdisk dev/sdc1
+   86  tree
+   87  clear
+   88  mc
+   89  clear
+   90  fdisk dev/sdc1
+   91  sudo fdisk dev/sdb1
+   92  clear
+   93  sudo vgcreate  /dev/www /dev/sdb
+   94  sudo fdisk /dev/sdb
+   95  sudo vgcreate  /dev/www /dev/sdb
+   96  sudo vgreduce vg0 /dev/sbc 
+   97  sudo vgreduce sbc /dev/sbb 
+   98  clear
+   99  sudo vgdisplay www
+  100  vgrename www datos
+  101  man vgrename 
+  102  sudo vgrename -f www datos
+  103  sudo lvcreate -L 1G -n www datos
+  104  sudo lvcreate -L 4G -n salvas datos
+  105  sudo vgdisplay datos
+  106  sudo lvextend  -L +1G /dev/datos/www
+  107  sudo resize2fs /dev/datos/www
+  108  sudo vgdisplay datos
+  109  history
+  110  history > historial.txt
